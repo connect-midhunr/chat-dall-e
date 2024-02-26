@@ -3,11 +3,15 @@ import streamlit as st
 
 if __name__ == '__main__':
 
+    col1, col2, col3 = st.columns(3)
+    
+    with col2:
+        st.image('./images/collabll-logo.png')
+
     html_temp = """
     
-    <div style="background-color:rgb(173, 216, 230);padding:10px">
-        <img src="images/collabll-logo.png" alt="Collabll Logo" height="200">
-        <h2 style="color:rgb(0, 0, 128);text-align:center;">Text-to-Image Generation</h2>
+    <div style="background-color:#bcd2e8;padding:10px">
+        <h2 style="color:#1e3f66;text-align:center;">Text-to-Image Generation</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
