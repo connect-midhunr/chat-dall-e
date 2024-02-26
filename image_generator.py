@@ -14,7 +14,7 @@ small = Size(256, 256)
 class ImageGenerator():
 
     def __init__(self) -> None:
-        self._client = OpenAI(api_key="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")
+        self._client = OpenAI(api_key="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")
     
     def generate_image(self, prompt:str, image_size:str, image_quality:str, num_of_images:int) -> str:
 
