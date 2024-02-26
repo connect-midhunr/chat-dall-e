@@ -5,8 +5,9 @@ if __name__ == '__main__':
 
     html_temp = """
     
-    <div style="background-color:tomato;padding:10px">
-    <h2 style="color:white;text-align:center;">Text-to-Image Generation</h2>
+    <div style="background-color:rgb(173, 216, 230);padding:10px">
+        <img src="images/collabll-logo.png" alt="Collabll Logo" height="200">
+        <h2 style="color:rgb(0, 0, 128);text-align:center;">Text-to-Image Generation</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
